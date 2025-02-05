@@ -20,7 +20,7 @@ chrono = { version = "0.4", default-features = false, features = ["serde"] }
 thiserror = "2.0"
 uuid = { version = "1.6.1", features = ["v4", "serde", "v7"] }
 serde_json = { version = "1", features = ["preserve_order"] }
-utoipa = { version = "4.2.0", features = ["actix_extras", "chrono", "uuid", "openapi_extensions"], optional = true }
+utoipa = { version = "5.3.1", features = ["actix_extras", "chrono", "uuid", "openapi_extensions"], optional = true }
 utoipa-swagger-ui = { version = "6.0.0", features = ["actix-web"], optional = true }
 yew = { version = "0.21.0", features = ["csr"], optional = true }
 nvd-cves = { version = "0.1.1" }
